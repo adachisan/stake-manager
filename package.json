@@ -1,0 +1,15 @@
+{
+  "name": "stake-manager",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node -r ./config.js index.js",
+    "clear": "rm -rf node_modules && npm i"
+  },
+  "author": "Adachi",
+  "license": "ISC",
+  "dependencies": {
+    "ethers": "^6.3.0"
+  }
+}
